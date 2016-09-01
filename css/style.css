@@ -7,34 +7,37 @@
     src: url(../fonts/Open-Sans.ttf);
 } 
 
-.wrapper {
+.wrapper-header {
 	width: 100%;
 	background: url(../img/background.jpg) 100% 100% no-repeat;  
     background-size: cover;
+    padding-bottom: 55px;
+    box-sizing: border-box;
 }
 
 .header {
 	width: 960px;
 	margin: 0 auto;
-	margin-bottom: 158px;
+	margin-bottom: 169px;
 }
 
 .header-logo {
 	float: left;
-	font-size: 300%;
-	font-family: LeagueGothic;
-	color: #fff;
-	margin-top: 66px;
+	margin-top: 54px;
 }
 
 .header-menu {
 	float: right;
-	margin-top: 77px;
+	margin-top: 73px;
 }
 
-.header-menu li {
+.header_menu-list {
 	display: inline-block;
-	margin-left: 46.5px;
+	margin-left: 46px;
+}
+
+.header_menu-first-list {
+	margin-left: 0px;
 }
 
 .header-menu a {
@@ -58,38 +61,54 @@
 	height: 400px;
 	background: rgba(0,0,0, .2);
 	position: relative;
+	margin-bottom: 89px;
 }
 
 .slider {
 	width: 960px;
 	height: inherit;
 	margin: 0 auto;
-	padding: 40px 5px 40px 5px;
+	padding: 40px 0px 40px 0px;
 	box-sizing: border-box;
-	overflow: hidden;
-    position: relative;
 }
 
-.slider input {
-	display: none;
+.slider-text {
+	float: left;
+    width: 537px;
+}
+
+.header-button_video {
+	position: absolute;
+	left: 70.2%;
+    top: 132px;
+}
+
+.slider-telephone {
+	position: absolute;
+    left: 60.5%;
+    top: -16px;
 }
 
 .slides-title {
 	font-family: LeagueGothic;
-	font-size: 375%;
+	font-size: 358%;
 	color: #fefefe;
+	margin-top: 36px;
 }
 
 .slides-subtitle {
 	font-family: LeagueGothic;
-	font-size: 200%;
+	font-size: 192%;
 	color: #edbfff;
+	margin-top: -7px;
 }
 
 .slides-text {
 	font-family: Open-Sans;
 	font-size: 112.5%;
 	color: #fff;
+	letter-spacing: -0.25px;
+    margin-top: 4px;
 }
 
 .slider-control {
@@ -106,7 +125,7 @@
 	position: relative;
 	width: 10px;
 	border: 3px solid grey;
-	border-radius: 90%/10px;
+	border-radius: 90%;
 	background: #43424b;
 }
 
@@ -121,9 +140,17 @@
 
 .blurbs {
 	width: 960px;
-	padding: 57px 0;
+	padding: 74px 0 67px 0;
 	margin: 0 auto;
 	box-sizing: border-box;
+}
+
+.blurbs-settings {
+    margin-right: 47px;
+}
+
+.blurbs-questions {
+	margin-right: 38px;
 }
 
 .blurbs-settings::before {
@@ -133,6 +160,8 @@
 	background: url(../img/sprite.png);
 	background-position: 0px 0px;
 	float: left;
+	margin-top: 9px;
+    margin-left: 2px;
 }
 
 .blurbs-questions::before {
@@ -142,6 +171,8 @@
 	background: url(../img/sprite.png);
 	background-position: 0px -90px;
 	float: left;
+	margin-top: 12px;
+    margin-left: 2px;
 }
 
 .blurbs-music::before {
@@ -151,30 +182,39 @@
 	background: url(../img/sprite.png);
 	background-position: 0px -45px;
 	float: left;
+	margin-top: 11px;
+    margin-left: 9px;
 }
 
 .blurbs-about {
 	display: inline-block;
-    width: 23%;
-    margin-left: 60px;
+    width: 29%;
+    margin-left: 10px;
 }
 
 .blurbs-title {
    font-family: LeagueGothic;
    font-size: 190%;
    color: #fff;
+   margin-left: 54px;
+   letter-spacing: -0.45px;
 }
 
 .blurbs-text {
 	font-family: Open-Sans;
 	font-size: 100%;
 	color: #fff;
+	margin-top: 5px;
+    margin-left: 52px;
+    letter-spacing: -0.35px;
 }
 
 .blurbs-link {
 	float: right;
 	font-family: LeagueGothic;
 	font-size: 112.5%;
+	margin-top: 10.55%;
+    margin-right: 8px;
 }
 
 .main:after {
@@ -191,30 +231,43 @@
 .main {
 	width: 960px;
 	margin: 0 auto;
+	padding-top: 101px;
 }
 
 .main-section {
 	float: left;
 	width: 45%;
-	margin-top: 70px;
 	margin-bottom: 50px;
 }
 
-.main-testimonials {
+.wrapper-tesimonials {
 	background: #fff;
-	margin-left: 20px;
-	margin-right: 20px;
+	padding: 27px 19px 49px 43px;
+}
+
+.main-testimonials {
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.testimonials-photo {
+	position: absolute;
+    right: 403px;
+    top: 17px;
 }
 
 .main-testimonials:after {
-	content: '';
+    content: '';
     position: absolute;
-    left: 29%;
+    left: 83%;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 20px 0px 0 50px;
+    border-width: 21px 0px 0 34px;
     border-color: #ffffff transparent;
+    top: 84%;
 }
 
 .testimonials-title {
@@ -228,10 +281,45 @@
 	color: #edbfff;
 }
 
+.testimonials-text {
+	font-family: Open-Sans;
+	font-size: 100%;
+	color: #454545;
+	margin-top: 6px;
+}
+
+.testimonials-control {
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	margin-top: 22px;
+}
+
+.testimonials_control-control-label {
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin: 2px;
+    position: relative;
+    width: 15px;
+    border: 1px solid grey;
+    border-radius: 92%;
+    background: #fff;
+}
+
+.testimonials_control-control-label:hover {
+	background: #5e5e5e;
+}
+
+.main-updates {
+	padding: 27px 0 0 39px;
+}
+
 .updates-recent {
 	font-family: LeagueGothic;
 	font-size: 190%;
 	color: #454545;
+	letter-spacing: -0.25px;
 }
 
 .updates-read_more {
@@ -246,23 +334,34 @@
 	font-weight: 800;
 	font-size: 100%;
 	color: #454545;
+    letter-spacing: 1.75px;
+    word-spacing: -5.75px;
 }
 
 .updates-img {
 	float: left;
-    margin-right: 10px;
+    margin-right: 17px;
 }
 
 .updates-text {
 	font-family: Open-Sans;
 	font-size: 100%;
 	color: #454545;
+	margin-top: 2px;
+	word-spacing: -1.75px;
+}
+
+.updates-first {
+	padding-top: 12px;
 }
 
 .main-logos {
 	width: 100%;
 	padding: 0 0 0 90px;
 	box-sizing: border-box;
+	margin-top: 41px;
+    margin-left: 6px;
+    margin-bottom: 28px;
 }
 
 .logos-position {
@@ -278,6 +377,10 @@
 .footer-info {
 	width: 960px;
 	margin: 0 auto;
+	padding-top: 56px;
+    padding: 93px 0;
+    height: 397px;
+    box-sizing: border-box;
 }
 
 .footer-info:after {
@@ -288,9 +391,9 @@
 
 .info-genereal_style {
 	float: left;
-	margin-right: 10px;
-	width: 31.5%;
-	height: 100px;
+	margin-right: 55px;
+	width: 29.5%;
+	height: 198px;
 	overflow: hidden;
 }
 
@@ -298,12 +401,18 @@
 	font-family: Open-Sans;
 	font-size: 100%;
 	color: #787878;
+	margin-top: 10px;
+}
+
+.footer-categorias {
+	margin-right: 0;
 }
 
 .comments_categories-title {
 	font-family: LeagueGothic;
 	font-size: 190%;
 	color: #454545;
+	letter-spacing: -0.45px;
 }
 
 .footer_pingbuller-copyright {
@@ -311,6 +420,8 @@
 	font-style: italic;
 	font-size: 100%;
 	color: #c5c5c5;
+	margin-top: 5px;
+    letter-spacing: -0.25px;
 }
 
 .pingbuller-title {
@@ -342,15 +453,16 @@
 
 .footer_menu-list a {
 	font-family: LeagueGothic;
-	font-size: 150%;
+	font-size: 121%;
 	color: #fff;
 }
 
 .footer-designed {
 	float: right;
 	font-family: Open-Sans;
-	font-size: 75%;
-	color: #fff;
+	font-size: 77%;
+	color: #fff;    
+	margin-top: 5px;
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
