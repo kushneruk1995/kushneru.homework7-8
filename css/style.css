@@ -33,28 +33,25 @@
 .header-menu {
 	float: right;
 	margin-top: 73px;
-}
-
-.header_menu-pulldown {
-	display: none;
+	margin-right: 10px;
 }
 
 .header_menu-list {
 	display: inline-block;
-	margin-left: 46px;
+	margin-left: 44px;
 }
 
 .header_menu-first-list {
 	margin-left: 0px;
 }
 
-.header-menu a {
+.header_menu-link {
 	font-family: LeagueGothic;
 	font-size: 150%;
 	color: #fff;
 }
 
-.header-menu a:hover {
+.header_menu-link:hover {
 	border-bottom: solid #edbfff;
 }
 
@@ -72,12 +69,31 @@
 	margin-bottom: 89px;
 }
 
+.wrapper-slider_telephone {
+	position: absolute;
+	background: url(../img/telephone.png);
+	width: 267px;
+	height: 414px;
+    left: 617px;
+    top: -17px;
+}
+
+.wrapper-slider_buttton {
+	width: 76px;
+	height: 76px;
+	background: url(../img/button-video.png);
+	position: absolute;
+	top: 36%;
+    left: 50.5%;
+}
+
 .slider {
 	width: 960px;
 	height: inherit;
 	margin: 0 auto;
 	padding: 40px 0px 40px 0px;
 	box-sizing: border-box;
+	position: relative;
 }
 
 .slider-text {
@@ -93,8 +109,6 @@
 
 .slider-telephone {
 	position: absolute;
-    left: 60.5%;
-    top: -16px;
 }
 
 .slides-title {
@@ -115,7 +129,7 @@
 	font-family: Open-Sans;
 	font-size: 112.5%;
 	color: #fff;
-	letter-spacing: -0.35px;
+	letter-spacing: -0.28px;
     margin-top: 4px;
 }
 
@@ -128,13 +142,13 @@
 .control-label {
 	cursor: pointer;
 	display: inline-block;
-	height: 10px;
+	height: 12px;
 	margin: 2px;
 	position: relative;
-	width: 10px;
-	border: 3px solid grey;
+	width: 12px;
+	border: 1px solid grey;
 	border-radius: 90%;
-	background: #43424b;
+	background: rgba(64,67,75,0.3);
 }
 
 .control-label:hover {
@@ -231,6 +245,10 @@
     margin-right: 3%;
 }
 
+.blurbs-link:hover {
+	text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
 .main:after {
     content: "";
     display: table;
@@ -245,7 +263,7 @@
 .main {
 	width: 960px;
 	margin: 0 auto;
-	padding-top: 7.5%;;
+    padding-top: 99px;
 }
 
 .main-section {
@@ -256,7 +274,7 @@
 
 .wrapper-tesimonials {
 	background: #fff;
-	padding: 6% 9% 9% 9.5%;
+	padding: 28px 38px 35px 38px;
 }
 
 .main-testimonials {
@@ -274,7 +292,7 @@
 .testimonials-photo {
 	position: absolute;
     right: 403px;
-    top: 17px;
+    top: 18px;
 }
 
 .main-testimonials:after {
@@ -294,6 +312,7 @@
 	font-size: 190%;
 	text-transform: uppercase;
 	color: #454545;
+	letter-spacing: -0.5px;
 }
 
 .testimonials_title-span {
@@ -312,15 +331,14 @@
 .testimonials-control {
 	display: block;
 	margin: 0 auto;
-	width: 30%;
-	margin-top: 22px;
+	width: 20%;
+	margin-top: 24px;
 }
 
 .testimonials_control-control-label {
     cursor: pointer;
     display: inline-block;
     height: 15px;
-    margin: 2px;
     position: relative;
     width: 15px;
     border: 1px solid grey;
@@ -346,7 +364,11 @@
 }
 
 .updates-list {
-	margin-bottom: 4%;
+	margin-bottom: 19px;
+}
+
+.updates_list-middle {
+	margin-bottom: 3.5%;
 }
 
 .updates-read_more {
@@ -391,20 +413,50 @@
 }
 
 .updates-first {
-	padding-top: 3%;
+	padding-top: 13px;
 }
 
 .main-logos {
 	width: 100%;
-    padding: 0 0 0 10%;
+    padding: 0 0 0 9.7%;
     box-sizing: border-box;
-    margin-top: 4%;
-    margin-bottom: 2.5%;
+     margin-top: 44px;
+    margin-bottom: 26px;
+
 }
 
 .logos-position {
+	background: url(../img/sprite-logos.png);
+	width: 106px;
+	height: 64px;
 	display: inline-block;
-	margin-right: 60px;
+	margin-right: 26px;
+}
+
+.logos-position_1 {
+	background-position: 0px 0px;
+}
+
+.logos-position_2 {
+	background-position: -119px 0px;
+}
+
+.logos-position_3 {
+	background-position: -240px 0px;
+}
+
+.logos-position_4 {
+	background-position: -353px 0px;
+	margin-right: 9px;
+}
+
+.logos-position_5 {
+	background-position: -462px 0px;
+	    margin-right: 30px;
+}
+
+.logos-position_6 {
+	background-position: -604px 0px;
 }
 
 .wrapper-footer_info {
@@ -416,7 +468,7 @@
 	width: 960px;
 	margin: 0 auto;
 	padding-top: 56px;
-    padding: 7% 0 6.9% 0px;
+    padding: 94px 0 94px 0px;
     box-sizing: border-box;
 }
 
@@ -441,7 +493,7 @@
 	font-family: Open-Sans;
 	font-size: 100%;
 	color: #787878;
-	margin-top: 2%;
+	margin-top: 7px;
 	letter-spacing: -0.35px;
     line-height: 1.5;
 }
@@ -468,13 +520,14 @@
 	color: #c5c5c5;
 	margin-top: 5px;
     letter-spacing: -0.25px;
-    margin-bottom: 4%;
+    margin-bottom: 9px;
 }
 
 .pingbuller-title {
 	font-family: LeagueGothic;
 	font-size: 300%;
 	color: #454545;
+	letter-spacing: -0.5px;
 }
 
 .pingbuller_title-span {
@@ -509,17 +562,20 @@
 	font-family: Open-Sans;
 	font-size: 77%;
 	color: #fff;    
-	margin-top: 5.3%;
+	margin-top: 49px;
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+	letter-spacing: -0.55px;
+	margin-right: 10px;
 }
 
 .footer_designed-span {
 	font-weight: bold;
+	letter-spacing: 0.5px;
 }
 
 .footer_menu-ul {
 	float: left;
-	padding: 4.8% 0;
+	padding: 44px 0;
 }
 
 .footer-menu:after {

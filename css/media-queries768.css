@@ -14,7 +14,7 @@
   }
 
   .header_menu-list {
-    margin-left: 6.4%;
+    margin-left: 6.2%;
   }
 
   .header_menu-first-list {
@@ -40,12 +40,12 @@
   .slides-title {
     margin-top: 18.5%;
     letter-spacing: -0.75px;
-    margin-left: 9%;
+    margin-left: 8%;
     font-size: 299%;
   }
 
   .slides-subtitle {
-    margin-left: 8.5%;
+    margin-left: 7.5%;
     margin-top: 1%;
     letter-spacing: -0.1px;
     font-size: 147%;
@@ -55,16 +55,17 @@
     margin-left: 8%;
     margin-top: 1.5%;
     font-size: 99%;
-    line-height: 1.7;
-  }
-
-  .slider-telephone {
-    left: 57.5%;
-    top: -5.5%;
+    line-height: 1.65;
+    letter-spacing: -0.35px;
   }
 
   .slides_subtitle-hidden {
     display: none;
+  }
+
+  .wrapper-slider_telephone {
+    left: 57%;
+    top: -5.5%;
   }
 
   .blurbs {
@@ -73,9 +74,14 @@
     padding-bottom: 9%;
   }
 
+  .blurbs-settings::before {
+    margin-top: 8%;
+    margin-left: 5.5%;
+  }
+
   .blurbs-about {
     margin-left: 0;
-    margin-right: 4.2%;
+    margin-right: 4%;
   }
 
   .blurbs-music {
@@ -84,7 +90,7 @@
 
   .blurbs-title {
     font-size: 147%;
-    margin-left: 30%;
+    margin-left: 29%;
     letter-spacing: -0.25px;
     margin-top: 5%;
   }
@@ -99,7 +105,7 @@
     font-family: Open-Sans;
     font-size: 100%;
     margin-top: 1%;
-    margin-left: 30%;
+    margin-left: 28%;
     color: #fff;
     letter-spacing: -0.35px;
     line-height: 1.5;
@@ -107,7 +113,7 @@
 
   .blurbs-link {
     margin-top: 2.7%;
-    margin-right: 3%;
+    margin-right: 4%;
   }
 
   .main {
@@ -129,7 +135,7 @@
   }
 
   .wrapper-tesimonials{
-    padding: 8% 5% 14% 13%;
+    padding: 8% 5% 14% 12.5%;
   }
 
   .main-testimonials {
@@ -138,7 +144,7 @@
 
   .testimonials-photo {
     position: absolute;
-    right: 91%;
+    right: 92%;
     top: 5%;
   }
 
@@ -151,6 +157,7 @@
 
   .testimonials-title {
     font-size: 150%;
+    letter-spacing: -0.25px;
   }
 
   .testimonials_text-abridgment {
@@ -170,7 +177,7 @@
 
   .main-updates {
     width: 50%;
-    padding-left: 6%;
+    padding-left: 5.5%;
   }
 
   .updates-read_more {
@@ -194,7 +201,7 @@
 
   .updates-title {
     font-size: 98%;
-    letter-spacing: 0.95px;
+    letter-spacing: 1px;
   }
 
   .updates-first {
@@ -202,7 +209,11 @@
   }
 
   .updates-list {
-    padding-bottom: 2.5%;
+    padding-bottom: 1.1%;
+  }
+
+  .updates_list-middle {
+    padding-bottom: 2.2%;
   }
 
   .updates-img {
@@ -226,24 +237,44 @@
   .footer-info {
     width: 100%;
     padding-left: 0.2%;
-    padding: 12.2% 0 11.9% 0px;
+    padding: 12.2% 0 11.7% 0px;
   }
 
   .footer-menu {
     width: 100%;
-    padding: 6% 0 7px 0;
+    padding: 6% 0  11% 0;
   }
 
   .main-logos {
     width: 100%;
-    padding: 3% 1.5% 1% 0.5%;
+    padding: 1.5% 1.5% 0% 0.4%;
   }
 
   .logos-position {
     margin-right: 7%;
   }
 
-  .logos_position-last {
+  .logos-position_1 {
+    margin-right: 1.7%;
+  }
+
+  .logos-position_2 {
+    margin-right: 2.2%;
+  }
+
+  .logos-position_3 {
+    margin-right: 2.6%;
+  }
+
+  .logos-position_4 {
+    margin-right: -0.5%;
+  }
+
+  .logos-position_5 {
+    margin-right: 3%;
+  }
+
+  .logos-position_6 {
     margin-right: 0%;
   }
 
@@ -262,7 +293,7 @@
   }
 
   .info-genereal_style {
-    margin-right: 7.5%;
+    margin-right: 7.2%;
     width: 28%;
     padding-top: 1%;
   }
@@ -276,9 +307,9 @@
     font-family: Open-Sans;
     font-size: 100%;
     color: #787878;
-    margin-top: 2%;
+    margin-top: 2.7%;
     line-height: 1.6;
-    letter-spacing: -0.3px;
+    letter-spacing: -0.35px;
   }
 
   .footer_pingbuller-copyright {
@@ -295,9 +326,14 @@
     padding: 0% 0; 
   } 
 
+  .footer_menu-list {
+    margin-right: 39px;
+  }
+
   .footer-designed {
     margin-right: 3%;
     margin-top: 4.3%;
+        letter-spacing: -0.15px;
   }
 
   .footer-designed:after {
